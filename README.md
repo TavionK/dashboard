@@ -1,19 +1,36 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Momentum Dashboard
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and elegant Chrome new tab dashboard built with HTML, CSS, and JavaScript. The dashboard displays the current time, weather, and Bitcoin prices while also pulling a random background image from Unsplash.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- Current Time: Displays the current time in a clean and modern UI.
+- Weather: Fetches and displays the current weather conditions based on the user's location.
+- Bitcoin Prices: Shows the current Bitcoin price, 24-hour high, and 24-hour low.
+- Dynamic Background: Fetches a high-quality random image from Unsplash and credits the photographer.
 
-Happy Coding!
+## Technologies Used
+
+- HTML, CSS, JavaScript: Core technologies for building the UI and functionality.
+
+- Unsplash API: Retrieves random background images and author information.
+
+- OpenWeather API: Fetches real-time weather data.
+
+- CoinGecko API: Provides Bitcoin price details.
+
+## Installation, Setup and Usage
+
+1. Clone the repository:
+
+2. Set the dashboard as your new tab page by installing it as a Chrome extension.
+
+3. View real-time updates for time, weather, and Bitcoin prices with each new tab.
+
+## Acknowledgments
+
+- Background images provided by [Unsplash](https://unsplash.com/).
+
+- Weather data powered by [OpenWeather](https://openweathermap.org/api).
+
+- Cryptocurrency data sourced from [CoinGecko](https://docs.coingecko.com/reference/introduction).
